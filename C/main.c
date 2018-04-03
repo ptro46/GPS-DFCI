@@ -57,7 +57,7 @@ int main(int argc, const char * argv[]) {
     
     printf("lat(%f N) lng(%f E)\n\n",lat,lng);
     printf("DFCI (%s)\n",dfci);
-    /*
+
     printf("Loc         (%s)\n",locator);
     printf("WGS84 dms   lat(%s) lng(%s)\n",latLng84DMS.latDMS,latLng84DMS.lngDMS);
     printf("WGS decimal lat(%s) lng(%s)\n",latLng84DMS.latDecimal,latLng84DMS.lngDecimal);
@@ -67,7 +67,7 @@ int main(int argc, const char * argv[]) {
     latLng = DFCI2LatLng(dfci);
     printf("\n\n");
     printf("lat(%f N) lng(%f E)\n\n",latLng.lat,latLng.lng);
-     */
+
     sCarre2Km carre2Km;
     sCarre20Km carre20Km;
     sCarre100Km carre100Km;
